@@ -210,4 +210,71 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+}
+
+.info--container {
+  padding-top: 16px;
+  margin-bottom: 120px;
+}
+.info--container .black {
+  color: #6E7191;
+  font-family: Golos;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.info--container span {
+  color: #F56E1E;
+  font-family: Golos;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.info--container .info--title {
+  color: #4E4B66;
+  font-family: Golos;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 15px 0 63px;
+}
+.info--container .more--info {
+  display: flex;
+  gap: 30px;
+}
+.info--container .more--info .desc1 {
+  width: 75%;
+  color: #6E7191;
+  font-family: Golos;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.info--container .more--info .desc2 {
+  width: 83%;
+  color: #6E7191;
+  font-family: Golos;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.platforms .title {
+  color: #6E7191;
+  font-family: Golos;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.platforms .platform {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

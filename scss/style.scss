@@ -219,3 +219,72 @@ a {
         }
     }
 }
+
+.info--container {
+    padding-top: 16px;
+    margin-bottom: 120px;
+    .black {
+        color: $color;
+        font-family: Golos;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    span {
+        color: #F56E1E;
+        font-family: Golos;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .info--title {
+        color: #4E4B66;
+        font-family: Golos;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        margin: 15px 0 63px;
+    }
+    .more--info {
+        display: flex;
+        gap: 30px;
+        .desc1 {
+            width: 75%;
+            color: $color;
+            font-family: Golos;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+        }
+        .desc2 {
+            width: 83%;
+            color: $color;
+            font-family: Golos;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+}
+
+.platforms {
+    .title {
+        color: $color;
+        font-family: Golos;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .platform {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
