@@ -1,5 +1,99 @@
+$font-family:'Golos';
+$color:#6E7191;
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.header--container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    .header-katalog {
+        width: 180px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: #F56E1E;
+        border: none;
+        transition: all 0.3s;
+        &:hover {
+            background: #d93d08;
+        }
+        span {
+            color: #FCFCFC;
+            font-family: $font-family;
+            font-family: 'Golos';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+        }
+    }
+    .header--search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 708px;
+        height: 54px;
+        padding: 12px;
+        border-radius: 12px;
+        border: 1px solid #A0A3BC;
+        background: #FFF;
+        input {
+            border: none;
+            &::placeholder {
+                color: #A0A3BC;
+                font-family: Golos;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+            }
+        }
+    }
+    .header--item {
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1px;
+            transition: all 0.3s;
+            &:hover {
+                img {
+                    transform: rotate(360deg);
+                    transition: all 0.7s;
+                }
+                span {
+                    color: #d93d08;
+                    transform: scale(1.2, 1.2);
+                    transition: all 0.3s;
+                }
+            }
+            span {
+                color: $color;
+                font-family: Golos;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+            }
+        }
+    }
 }
